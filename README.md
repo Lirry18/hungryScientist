@@ -8,24 +8,25 @@ Make sure you have installed
 
 ## Install front and backend:
 
-cd frontend
-npm install
+ ```cd frontend ```
+```cd hungry_scientist```
+ ```npm install ```
 
-cd backend
-npm install
+ ```cd backend ```
+ ```npm install ```
 
 ## Run:
 
-cd backend
-node server.js
+```cd backend```
+```node server.js```
 
 This will start the backend server at http://localhost:4000
 On first run, the backend will create: backend/db.sqlite
 
 
 In another terminal
-cd frontend/hungry_scientist
-npm run dev
+```cd frontend/hungry_scientist```
+```npm run dev```
 This will start the fronend on http://localhost:5173
 
 
