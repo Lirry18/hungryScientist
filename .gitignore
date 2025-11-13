@@ -1,0 +1,44 @@
+# --- Node Modules ---
+node_modules/
+*/node_modules/
+
+# --- Environment Files ---
+.env
+.env.local
+.env.*.local
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# --- SQLite Database ---
+backend/db.sqlite
+db.sqlite
+
+# --- Build Output ---
+dist/
+build/
+*.cache
+.vite/
+.next/
+out/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Coverage / Test Output ---
+coverage/
+*.lcov
+
+# --- Misc ---
+*.tmp
