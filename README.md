@@ -14,7 +14,7 @@ npm install
 cd backend
 npm install
 
-Run:
+## Run:
 
 cd backend
 node server.js
