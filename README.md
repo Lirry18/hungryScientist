@@ -1,12 +1,12 @@
 # hungryScientist
 
-Before you start:
+## Before you start:
 
 Make sure you have installed
 - Node.js ≥ 20.19 or ≥ 22.12 (required by Vite)
 - npm ≥ 10
 
-Install front and backend:
+## Install front and backend:
 
 cd frontend
 npm install
@@ -32,7 +32,7 @@ This will start the fronend on http://localhost:5173
 If you want to wipe all entries just delete the sqlite file and restart backend.
 
 
-Thought process:
+## Thought process:
 
 I started out with the pen and paper just drawing out a simple frontend for the task. Then I set up my machine, which ofcourse gave me some dependancy issues with versions of Vite and Node, but that was solved quickly.
 
@@ -48,7 +48,7 @@ After hooking both together through a simple api script on the front-end (api.ts
 
 I ran into an issue, and that was when I would switch between up and downvote. It would remove the previous action but not do the opposite action (e.g. after upvote the delta should be -2). Then I added express-session so I could create a cookie and save the same session. This also allowed me to block double votes and finish the rest of the assignment. 
 
-The first things I would do if this was a real project:
+## The first things I would do if this was a real project:
 
 - Write unit-tests (not my strongest skill, would love to learn that)
 - Add pagination
